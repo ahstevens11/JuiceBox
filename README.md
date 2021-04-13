@@ -1,0 +1,3 @@
+Juice Box
+
+npm install
