@@ -110,7 +110,7 @@ async function dropTables() {
   async function createInitialPosts() {
     try {
       const [albert, sandra, glamgal] = await getAllUsers();
-  
+      console.log(albert, sandra, glamgal, "users")
       console.log("Starting to create posts...");
       await createPost({
         authorId: albert.id,
